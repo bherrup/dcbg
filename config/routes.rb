@@ -1,5 +1,11 @@
 Dcbg::Application.routes.draw do
 
+  resources :bars
+
+
+  resources :events
+
+
   devise_for :users
 
   # The priority is based upon order of creation:
